@@ -20,6 +20,7 @@ vendor.camera.sensor.rearDepth.fuseID		u:object_r:vendor_camera_prop:s0
 vendor.camera.sensor.rearMacro.fuseID		u:object_r:vendor_camera_prop:s0
 vendor.camera.watermark.en			u:object_r:vendor_camera_prop:s0
 vendor.camera.boost.en				u:object_r:vendor_camera_prop:s0
+vendor.camera.aux.				u:object_r:vendor_camera_prop:s0
 
 # DFPS
 persist.vendor.dfps.level	           u:object_r:vendor_display_prop:s0
