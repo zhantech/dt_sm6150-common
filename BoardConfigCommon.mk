@@ -111,7 +111,6 @@ BOARD_KERNEL_CMDLINE += lpm_levels.sleep_disabled=1
 BOARD_KERNEL_CMDLINE += service_locator.enable=1
 BOARD_KERNEL_CMDLINE += swiotlb=1
 BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
-BOARD_KERNEL_CMDLINE += video=vfb:640x400,bpp=32,memsize=3072000
 
 BOARD_KERNEL_SEPARATED_DTBO := true
 KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton/bin
@@ -225,7 +224,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2021-07-01
+VENDOR_SECURITY_PATCH := 2021-09-01
 
 # Sepolicy
 TARGET_SEPOLICY_DIR := msmsteppe
