@@ -1,5 +1,5 @@
-hal_attribute_aosp(dms)
+hal_attribute(dms)
 
-hal_attribute_aosp(mlipay)
+hal_attribute(mlipay)
 
-hal_attribute_aosp(motor)
+hal_attribute(motor)
